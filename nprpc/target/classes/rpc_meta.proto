@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_outer_classname = "com.fredx.provider.RpcMetaProto";
+
+message RpcMeta {
+  string serviceName = 1;
+  string methodName = 2;
+}
